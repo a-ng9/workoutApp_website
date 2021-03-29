@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+body,
+html {
+  margin: 0;
+  background-color: #262a37;
+  cursor: url(assets/redCursor.png) 10 10, default;
+}
+
+h1 {
+  color: #d65852;
+}
+
+.circle {
+  position: absolute;
+  /* border: solid 1px #ccc; */
+  background-color: #fff;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+#masthead {
+  background-color: #384059;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+}
