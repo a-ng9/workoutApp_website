@@ -16,6 +16,8 @@ jQuery(document).ready(function () {
   }, 20);
 });
 
+
+//First Demo phone animation (pop animation)
 gsap.from(".phone1", {
   duration: 1.5,
   opacity: 0,

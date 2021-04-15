@@ -8,41 +8,48 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 
-
-
-
     <title>Fitness Bud</title>
 </head>
 
 <body>
-    <span id="circle" class="circle"></span>
-    <div class="masthead">
+   
+    <!-- Landing Screen (Masthead) -->
+    <header class="masthead">
+        <span id="circle" class="circle"></span>
+        <div class="masthead-row">
+            <div class="masthead-column-75">
 
-        <div class="row1">
-            <div class="column-75">
-                <div class="logo"> LOGO </div>
+                <div class="masthead-logo">
+                    <img src="assets/logo2.svg">
+                </div>
 
                 <h1>Fitness Bud</h1>
-                <h2 class="subtitle">Recreating gym buddies</h2>
-                <h2 class="subtitle2">BUT virtually</h2>
+                <h2 class="masthead-subtitle">Recreating gym buddies</h2>
+                <h2 class="masthead-subtitle2">BUT virtually</h2>
             </div>
             <!-- Phone Image -->
-            <div class="column-25">
-                <div class="app-image" data>
+            <div class="masthead-column-25">
+                <div class="masthead-image">
                     <img class="phone1" src="assets/iphone.png">
                 </div>
             </div>
         </div>
-    </div>
+        <div class="masthead-scroll-container">
+            <figcaption class="scroll-text">Scroll down</figcaption>
+            <img class="scroll-image" src="assets/down_arrow.svg">
+        </div>
+    </header>
+
+
     <!-- Main Features -->
-    <div class="main-features">
+    <section class="main-features">
         <div class="title-section">
             Main Features
         </div class="row-mainfeatures">
         <div class="row2">
             <div class="column-3" data-center-center="opacity:1;left:0%;" data-0-bottom="opacity:0;">
                 <h3>Virtual Workouts</h3>
-                <p>No Gym? No</p>
+                <p>No Gym? No Problem</p>
             </div>
             <div class="column-3" data-center-center="opacity:1;" data-0-bottom="opacity:0;">
                 <h3>Prompt Friends</h3>
@@ -53,7 +60,7 @@
                 <p>Stay competitive and motivated</p>
             </div>
         </div>
-    </div>
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
@@ -67,3 +74,22 @@
 </body>
 
 </html>
+
+
+<!-- 
+Inspiration websites:
+    https://www.freeletics.com/en/
+    https://rewindapp.flatstudio.co/
+
+animation plugin:
+https://greensock.com/docs/v3/Plugins/ScrollTrigger
+https://www.youtube.com/watch?v=Dn4dIv4oa1s
+https://www.youtube.com/watch?v=QqAY7odrfEM
+
+
+
+CSS Gride:
+https://www.youtube.com/watch?v=EFafSYg-PkI
+
+
+ -->
