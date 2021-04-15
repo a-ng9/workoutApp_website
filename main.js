@@ -17,6 +17,7 @@ jQuery(document).ready(function () {
   }, 20);
 });
 
+gsap.registerPlugin(ScrollTrigger);
 //animation for picture in masthead (pop animation)
 gsap.from(".phone1", {
   duration: 1.5,
@@ -27,3 +28,17 @@ gsap.from(".phone1", {
 
 //animation for scroll arrow
 gsap.to(".scroll-image", { y: 20, duration: 2.5, repeat: 5, ease: "elastic" });
+
+gsap.from(".row2", {
+  scrollTrigger: {
+    markers: true,
+    start: "20% 60% ",
+    trigger: ".row2",
+    toggleActions: "restart pause reverse pause",
+  },
+  duration: 2,
+  opacity: 0,
+});
+
+// Source to check scroll animation
+// https://greensock.com/docs/v3/Plugins/ScrollTrigger
