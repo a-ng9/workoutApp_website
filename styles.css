@@ -136,7 +136,6 @@ h3 {
   color: white;
   flex: 33%;
   text-align: center;
-  border: 3px dashed #1c87c9;
   padding: 10% 0;
   margin: auto;
 }
@@ -160,7 +159,7 @@ h3 {
   padding-right: 5%;
 }
 .column-2-45 {
-  /* background-color: aquamarine; */
+  background: radial-gradient(circle, #ff948e72, #9198e500, #9198e500);
   flex: 40%;
   margin: auto;
   text-align: center;
