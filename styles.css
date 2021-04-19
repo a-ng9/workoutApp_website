@@ -8,6 +8,7 @@
 
 body,
 html {
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 0;
   background-color: #212121;
@@ -124,7 +125,7 @@ h3 {
   border-top: 2px solid #b7575a;
   width: 18%;
 }
-.row2 {
+.row {
   display: flex;
   height: 85%;
 }
@@ -134,10 +135,31 @@ h3 {
   text-align: center;
   border: 3px dashed #1c87c9;
   padding: 10% 0;
-  margin:auto;
+  margin: auto;
 }
 .features-font {
   margin-block-start: 0;
   font-family: "Raleway", sans-serif;
   font-weight: lighter;
+}
+
+/* ////////////////// */
+/* How it works? */
+.how-it-works {
+  height: 100vh;
+  position: relative;
+}
+.column-2-35 {
+  background-color:aquamarine;
+  flex: 35%;
+  margin: auto;
+  text-align: center;
+
+}
+.column-2-65 {
+  background-color: brown;
+  flex: 65%;
+  margin: auto;
+  /* text-align: center; */
+
 }

@@ -34,7 +34,7 @@ gsap.from(".row2", {
     markers: true,
     start: "20% 60% ",
     trigger: ".row2",
-    toggleActions: "restart pause reverse pause",
+    toggleActions: "play none none none",
   },
   duration: 2,
   opacity: 0,
