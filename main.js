@@ -26,15 +26,16 @@ gsap.from(".phone1", {
   ease: "back",
 });
 
-//animation for scroll arrow
+//animation for scroll-ARROW in masthead
 gsap.to(".scroll-image", { y: 20, duration: 2.5, repeat: 5, ease: "elastic" });
 
-gsap.from(".row2", {
+//scroll animation triggers for other sections
+gsap.from("#section-mainFeatures", {
   scrollTrigger: {
     markers: true,
     start: "20% 60% ",
-    trigger: ".row2",
-    toggleActions: "play none none none",
+    trigger: "#section-mainFeatures",
+    toggleActions: "play restart none none",
   },
   duration: 2,
   opacity: 0,
