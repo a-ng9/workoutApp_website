@@ -198,12 +198,18 @@ h3 {
   text-align: center;
 }
 .download-title {
+  text-decoration: line-through;
   margin-bottom: 0;
+  font-size: 55px;
 }
 .download-text {
+  text-decoration: line-through;
   font-family: Raleway;
-  font-size: 2.5em;
+  font-size: 39px;
   margin-top: 0;
+}
+#download-realText{
+  text-decoration:none;
 }
 
 /* ////////////////// */
@@ -232,10 +238,10 @@ h3 {
   .column-2-45 {
     flex: 35%;
   }
+  .download-title {
+    font-size: 55px;
+  }
 }
-
-/* @media screen and (max-width: 1146px) {
-} */
 
 @media screen and (max-width: 1010px) {
   h1 {
@@ -310,6 +316,20 @@ h3 {
   /* ----How it works---- */
   .column-2-45 {
     flex: 35%;
+  }
+  /* ----How it works---- */
+  .download-logo {
+    max-width: 45%;
+  }
+  .download-title {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  .download-text {
+    font-size: 24.5px;
+  }
+  .download-store {
+    max-width: 150px;
   }
 }
 
@@ -502,5 +522,20 @@ h3 {
   }
   .column-2-45 {
     padding: 0 20px;
+  }
+  /* ----How it works---- */
+  .download-logo {
+    max-width: 45%;
+  }
+  .download-title {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .download-text {
+    font-size: 14px;
+  }
+  .download-store {
+    margin-top: 5%;
+    max-width: 100px;
   }
 }
