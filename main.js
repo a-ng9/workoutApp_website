@@ -18,6 +18,7 @@ jQuery(document).ready(function () {
 });
 
 gsap.registerPlugin(ScrollTrigger);
+
 //animation for picture in masthead (pop animation)
 gsap.from(".masthead-image", {
   duration: 1.5,
@@ -27,7 +28,7 @@ gsap.from(".masthead-image", {
 });
 
 //animation for scroll-ARROW in masthead
-gsap.to(".scroll-image", {y: 10, duration: 2.5, repeat: 5, ease: "elastic" });
+gsap.to(".scroll-image", { y: 15, duration: 2, repeat: -1, ease: "elastic" });
 
 //scroll animation triggers for Main Features section
 gsap.from("#section-mainFeatures", {
@@ -43,3 +44,27 @@ gsap.from("#section-mainFeatures", {
 
 // Source to check scroll animation
 // https://greensock.com/docs/v3/Plugins/ScrollTrigger
+
+function goToSection(i, anim) {
+  gsap.set("body", {overflow: "hidden"});
+  
+  gsap.to("body", {
+    scrollTo: {y: i*innerHeight, autoKill: false},
+    duration: 1.4,
+    overwrite: true,
+    onComplete: () => gsap.set("body", {overflow: "auto"})
+  });
+}
+
+gsap.utils.toArray(".panel").forEach((panel, i) => {
+  ScrollTrigger.create({
+    trigger: panel,
+    onEnter: () => goToSection(i)
+  });
+  
+  ScrollTrigger.create({
+    trigger: panel,
+    start: "bottom bottom",
+    onEnterBack: () => goToSection(i)
+  });
+});
