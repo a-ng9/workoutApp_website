@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
 
 gsap.registerPlugin(ScrollTrigger);
 //animation for picture in masthead (pop animation)
-gsap.from(".phone1", {
+gsap.from(".masthead-image", {
   duration: 1.5,
   opacity: 0,
   scale: 0.3,
@@ -27,15 +27,15 @@ gsap.from(".phone1", {
 });
 
 //animation for scroll-ARROW in masthead
-gsap.to(".scroll-image", { y: 20, duration: 2.5, repeat: 5, ease: "elastic" });
+gsap.to(".scroll-image", {y: 10, duration: 2.5, repeat: 5, ease: "elastic" });
 
-//scroll animation triggers for other sections
+//scroll animation triggers for Main Features section
 gsap.from("#section-mainFeatures", {
   scrollTrigger: {
-    markers: true,
+    // markers: true,
     start: "20% 60% ",
     trigger: "#section-mainFeatures",
-    toggleActions: "play restart none none",
+    toggleActions: "play none none none",
   },
   duration: 2,
   opacity: 0,

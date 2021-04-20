@@ -17,15 +17,17 @@ html {
 
 h1 {
   font-family: Spantaran;
-  padding-top: 1em;
+  padding-top: 1.6em;
+  padding-left: 8px;
   color: #fff;
   font-weight: 300;
-  font-size: 7em;
-  margin: 0;
+  font-size: 105px;
+  margin: 0%;
 }
 h2 {
-  font-size: 4em;
-  padding-top: 0%;
+  padding: 0;
+  margin: 0;
+  font-size: 55px;
 }
 h3 {
   padding-bottom: 0;
@@ -35,9 +37,9 @@ h3 {
 }
 
 /* ////////////////// */
-/* Masthead */
+/* --------------------Masthead HEADER-------------------- */
 .masthead {
-  background-image: linear-gradient(#36405b, #212121);
+  background-image: linear-gradient(#36405b, #36405b0f, #212121);
   height: 100vh;
   width: 100%;
   position: relative;
@@ -48,9 +50,8 @@ h3 {
   text-align: center;
   height: 100%;
 }
+/* Column for Logo, Title and subtitles */
 .masthead-column-75 {
-  /* Column for Logo, Title and subtitles */
-
   display: inline-block;
   text-align: left;
   flex: 60%;
@@ -62,18 +63,11 @@ h3 {
   padding-bottom: 0;
 }
 .masthead-subtitle {
-  color: #fff;
-  padding: 0;
-  margin: 0;
   font-weight: normal;
-  font-size: 43pt;
 }
 .masthead-subtitle2 {
   color: #ff938e;
-  padding: 0;
-  margin: 0;
   font-weight: bold;
-  font-size: 43pt;
 }
 /* Column for phone image*/
 .masthead-column-25 {
@@ -82,23 +76,26 @@ h3 {
   margin: auto;
 }
 .masthead-image {
-  margin: auto;
-  width: 50%;
-  text-align: center;
+  max-width: 100%;
 }
+/* Scroll-down icon (Bottom Center) */
 .masthead-scroll-container {
   width: 100%;
   color: #fff;
   text-align: center;
   position: absolute;
-  bottom: 5vh;
+  bottom: 3vh;
 }
 .scroll-text {
   padding-bottom: 0.5%;
+  color: rgba(255, 255, 255, 0.468);
+}
+.scroll-image {
+  max-width: 4%;
 }
 
 /* ////////////////// */
-/* Cursor */
+/* --------------------Cursor-------------------- */
 .circle {
   position: absolute;
   background-color: #fff;
@@ -108,7 +105,7 @@ h3 {
 }
 
 /* ////////////////// */
-/* Main Features */
+/* --------------------Main Features SECTION--------------------*/
 .main-features {
   height: 100vh;
   position: relative;
@@ -146,7 +143,7 @@ h3 {
 }
 
 /* ////////////////// */
-/* How it works? */
+/* --------------------How it works? SECTION-------------------- */
 .how-it-works {
   position: relative;
 }
@@ -185,7 +182,7 @@ h3 {
 }
 
 /* ////////////////// */
-/* Download */
+/* --------------------Download-------------------- */
 .download-section {
   height: 100vh;
   position: relative;
@@ -196,12 +193,139 @@ h3 {
 .download-content {
   text-align: center;
 }
-.download-title{
+.download-title {
   margin-bottom: 0;
-
 }
 .download-text {
   font-family: Raleway;
   font-size: 2.5em;
   margin-top: 0;
+}
+
+/* ////////////////// */
+/* --------------------Responsive media queries-------------------- */
+@media screen and (max-width: 1300px) {
+  h1 {
+    padding-top: 2.5em;
+    font-size: 85px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .masthead-image {
+    max-width: 80%;
+    padding-right: 25%;
+  }
+  .masthead-column-75 {
+    flex: 70%;
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  h1 {
+    padding-top: 3em;
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .masthead-image {
+    max-width: 70%;
+    padding-right: 18%;
+  }
+  .masthead-column-75 {
+    flex: 60%;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  h1 {
+    padding-top: 4.5em;
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .masthead-image {
+    max-width: 80%;
+    padding-right: 18%;
+  }
+  .masthead-column-75 {
+    flex: 65%;
+    padding-left: 40px;
+  }
+}
+/* Setting flex direction to column */
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 70px;
+    padding-top: 4px;
+    padding-left: 4px;
+  }
+  h2 {
+    font-size: 37px;
+  }
+
+  .masthead-row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .masthead-logo {
+    max-width: 100px;
+  }
+  .masthead-column-75,
+  .masthead-column-25 {
+    flex: 0;
+  }
+  .masthead-subtitle {
+    font-weight: lighter;
+  }
+  .masthead-subtitle2 {
+    font-weight: 600;
+  }
+  .masthead-image {
+    max-width: 60%;
+    padding: 0;
+    padding-bottom: 6em;
+  }
+  .scroll-text {
+    font-size: 12px;
+    padding-bottom: 0%;
+  }
+  .scroll-image {
+    max-width: 4%;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 29.5px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 21.5px;
+  }
+  .masthead-column-75 {
+    padding-left: 20px;
+  }
+  .masthead-image {
+    max-width: 50%;
+  }
+
+  .scroll-image,
+  .scroll-text {
+    margin: 0;
+    padding: 0;
+  }
 }

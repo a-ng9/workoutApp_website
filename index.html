@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Fitness Bud</title>
 </head>
 
 <body>
-<!-- TODO: 
+    <!-- TODO: 
     - add animations 
     - Make website responsive - mobile view
 -->
@@ -17,21 +18,19 @@
     <header class="masthead">
         <span id="circle" class="circle"></span>
         <div class="masthead-row">
+            <!-- Column1 - Logo, Title, subtitles -->
             <div class="masthead-column-75">
-
-                <div class="masthead-logo">
-                    <img src="assets/logo2.svg">
+                <div >
+                    <img class="masthead-logo" src="assets/logo2.svg">
                 </div>
 
                 <h1>FITNESS BUD</h1>
-                <p class="masthead-subtitle">Recreating gym buddies</p>
-                <p class="masthead-subtitle2">BUT virtually</p>
+                <h2 class="masthead-subtitle">Recreating gym buddies</h2>
+                <h2 class="masthead-subtitle2">BUT virtually</h2>
             </div>
-            <!-- Phone Image -->
+            <!-- Column2 - Phone Image -->
             <div class="masthead-column-25">
-                <div class="masthead-image">
-                    <img class="phone1" src="assets/BuddyUp-screen.svg">
-                </div>
+                <img class="masthead-image" src="assets/BuddyUp-screen.svg" width="350px">
             </div>
         </div>
         <div class="masthead-scroll-container">
@@ -75,36 +74,64 @@
             <div class="hr2"></div>
         </div>
 
+        <!-- Step 1 -->
         <div class="row">
             <div class="column-2-45">
                 <img src="assets/workoutList-screen.svg">
             </div>
             <div class="column-2-55">
                 <div class="circleNum">1</div>
-                <h3>Do your workout anytime</h3>
-                <p class="features-font">Make your gym mobile! A list of many exercises for chest, abs, shoulder or
-                    even
+                <h3>Choose your workout</h3>
+                <p class="features-font">Make your gym mobile! A list of many exercises for chest, abs, shoulder or even
                     full body.</p>
             </div>
         </div>
+        <!-- Step 2 -->
         <div class="row">
             <div class="column-2-55" id="indent-row">
                 <div class="circleNum">2</div>
-                <h3>Workout with your friends</h3>
-                <p class="features-font">Challenge or Moticate your friends to stay fit by sending them a prompt to join your workout session!</p>
+                <h3>Invite your buddy</h3>
+                <p class="features-font">Challenge or Moticate your friends to stay fit by sending them a prompt to join
+                    your workout session!</p>
             </div>
             <div class="column-2-45">
                 <img src="assets/join-screen.svg">
             </div>
         </div>
+        <!-- Step 3 -->
         <div class="row">
             <div class="column-2-45">
                 <img src="assets/friends-screen.svg">
             </div>
             <div class="column-2-55">
                 <div class="circleNum">3</div>
-                <h3>Compete to be number 1</h3>
-                <p class="features-font">A scoreboard to keep track of your progress and see how your friends compete against you.</p>
+                <h3>Be sure they stay online</h3>
+                <p class="features-font">A scoreboard to keep track of your progress and see how your friends compete
+                    against you.</p>
+            </div>
+        </div>
+        <!-- Step 4 -->
+        <div class="row">
+            <div class="column-2-55" id="indent-row">
+                <div class="circleNum">4</div>
+                <h3>Earn points!</h3>
+                <p class="features-font">Challenge or Moticate your friends to stay fit by sending them a prompt to join
+                    your workout session!</p>
+            </div>
+            <div class="column-2-45">
+                <img src="assets/join-screen.svg">
+            </div>
+        </div>
+        <!-- Step 5 -->
+        <div class="row">
+            <div class="column-2-45">
+                <img src="assets/friends-screen.svg">
+            </div>
+            <div class="column-2-55">
+                <div class="circleNum">5</div>
+                <h3>See who is leading</h3>
+                <p class="features-font">A scoreboard to keep track of your progress and see how your friends compete
+                    against you.</p>
             </div>
         </div>
 
@@ -117,11 +144,11 @@
             <img src="assets/logo.svg" width="250">
             <h2 class="download-title">Download Now!</h2>
             <p class="download-text">To get FIT with your BUD</p>
-           
+
             <img src="assets/store.svg" width="200">
         </div>
     </section>
- 
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
