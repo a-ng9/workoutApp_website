@@ -14,7 +14,7 @@ html {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  padding:0;
+  padding: 0;
   background-color: #212121;
   cursor: url(assets/redCursor.png) 10 10, default;
 }
@@ -155,7 +155,7 @@ h3 {
   display: flex;
   height: 90vh;
 }
-#indent-row {
+#HIW-content {
   padding-left: 13%;
   padding-right: 5%;
 }
@@ -216,7 +216,6 @@ h3 {
   h2 {
     font-size: 44px;
   }
-
   /* ----Masthead---- */
   .masthead-image {
     max-width: 80%;
@@ -225,27 +224,20 @@ h3 {
     flex: 70%;
     padding-left: 35px;
   }
-
   /* ----Main Features---- */
   .title-section {
     padding: 20px 35px;
   }
-}
-
-@media screen and (max-width: 1146px) {
-  /* ----Main Features---- */
-  .mainFT-icon {
-    max-height: 100px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  .features-font {
-    font-size: 15px;
+  /* ----How it works---- */
+  .column-2-45 {
+    flex: 35%;
   }
 }
 
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 1146px) {
+} */
+
+@media screen and (max-width: 1010px) {
   h1 {
     padding-top: 3em;
     font-size: 65px;
@@ -261,6 +253,30 @@ h3 {
   .masthead-column-75 {
     flex: 60%;
     padding-left: 40px;
+  }
+  /* ----Main Features---- */
+  .mainFT-icon {
+    max-height: 100px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .features-font {
+    font-size: 15px;
+  }
+  /* ----How it works---- */
+  .circleNum {
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    line-height: 31px;
+    border-width: 3px;
+  }
+  .demo {
+    max-width: 95%;
+  }
+  #HIW-content {
+    padding-right: 0;
   }
 }
 
@@ -290,6 +306,10 @@ h3 {
   }
   .features-font {
     font-size: 14px;
+  }
+  /* ----How it works---- */
+  .column-2-45 {
+    flex: 35%;
   }
 }
 
@@ -372,6 +392,31 @@ h3 {
   .features-font {
     font-size: 18px;
   }
+  /* ----How it works---- */
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .circleNum {
+    width: 40px;
+    height: 40px;
+    font-size: 27px;
+    line-height: 40px;
+    border-width: 3px;
+  }
+  .column-2-55 {
+    order: 1;
+    padding: 0 35px;
+    flex: 0;
+    max-width: 600px;
+  }
+  .column-2-45 {
+    order: 2;
+    flex: 0;
+  }
+  #HIW-content {
+    padding: 0 35px;
+  }
 }
 
 @media screen and (max-width: 555px) {
@@ -443,5 +488,19 @@ h3 {
   }
   .features-font {
     font-size: 14px;
-  } 
+  }
+  /* ----How it works---- */
+  .circleNum {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 27.5px;
+    border-width: 2px;
+  }
+  .column-2-55 {
+    padding: 0 20px;
+  }
+  .column-2-45 {
+    padding: 0 20px;
+  }
 }
