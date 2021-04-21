@@ -99,16 +99,6 @@ h3 {
 }
 
 /* ////////////////// */
-/* --------------------Cursor-------------------- */
-.circle {
-  position: absolute;
-  background-color: #fff;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-}
-
-/* ////////////////// */
 /* --------------------Main Features SECTION--------------------*/
 .main-features {
   height: 100vh;

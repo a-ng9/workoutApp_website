@@ -19,31 +19,6 @@ jQuery(document).ready(function () {
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Snapping scroll animation to different sections
-function goToSection(i, anim) {
-  gsap.set("body", { overflow: "hidden" });
-
-  gsap.to("body", {
-    ease: "power",
-    scrollTo: { y: i * innerHeight },
-    duration: 1.4,
-    // overwrite: true,
-    onComplete: () => gsap.set("body", { overflow: "auto" }),
-  });
-}
-gsap.utils.toArray(".panel").forEach((panel, i) => {
-  ScrollTrigger.create({
-    trigger: panel,
-    onEnter: () => goToSection(i),
-  });
-
-  ScrollTrigger.create({
-    trigger: panel,
-    start: "bottom bottom",
-    onEnterBack: () => goToSection(i),
-  });
-});
-
 //Animation for picture in masthead (pop animation)
 gsap.from(".masthead-image", {
   duration: 1.5,
@@ -59,14 +34,14 @@ gsap.to(".scroll-image", { y: 15, duration: 2, repeat: -1, ease: "elastic" });
 gsap.from("#section-mainFeatures", {
   scrollTrigger: {
     // markers: true,
-    start: "20% 60% ",
+    start: "0% 60% ",
     end: "55% 40%",
     trigger: "#section-mainFeatures",
     toggleActions: "play none none reverse",
   },
   ease: "power",
   y: 100,
-  duration: 2,
+  duration: 1.5,
   opacity: 0,
 });
 
@@ -78,17 +53,15 @@ gsap
       trigger: "#step1",
       start: "-25% 60%", //Starts animation
       end: "top 25%", //Ends animation
-      // start:"center center",
-      // end:"bottom top",
       // markers: true,
-      scrub: 3,
-      duration: 10,
+      scrub: 1.5,
+      // duration: 10,
     },
   })
-  .from("#num1", { x: innerWidth * 1 })
-  .from("#demo1", { x: innerWidth * 1 })
-  .from("#HIW-title1", { x: innerWidth * 1 })
-  .from("#HIW-text1", { x: innerWidth * 1 });
+  .from("#demo1", { y: innerHeight * -0.2, opacity: 0 })
+  .from("#num1", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-title1", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-text1", { x: innerWidth * 0.2, opacity: 0 });
 
 //Step 2
 gsap
@@ -97,62 +70,62 @@ gsap
       trigger: "#step2",
       start: "-25% 60%", //Starts animation
       end: "10% 30%", //Ends animation
-      // markers: true,
-      scrub: 3,
+      markers: true,
+      scrub: 1.5,
     },
   })
-  .from("#demo2", { x: innerWidth * -1 })
-  .from("#num2", { x: innerWidth * -1 })
-  .from("#HIW-title2", { x: innerWidth * -1 })
-  .from("#HIW-text2", { x: innerWidth * -1 });
+  .from("#demo2", { y: innerHeight * -0.2, opacity: 0 })
+  .from("#num2", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-title2", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-text2", { x: innerWidth * -0.2, opacity: 0 });
 
-  //Step 3
-  gsap
+//Step 3
+gsap
   .timeline({
     scrollTrigger: {
       trigger: "#step3",
       start: "-25% 60%", //Starts animation
       end: "10% 30%", //Ends animation
       // markers: true,
-      scrub: 3,
+      scrub: 1.5,
     },
   })
-  .from("#demo3", { x: innerWidth * -1 })
-  .from("#num3", { x: innerWidth * -1 })
-  .from("#HIW-title3", { x: innerWidth * -1 })
-  .from("#HIW-text3", { x: innerWidth * -1 });
+  .from("#demo3", { y: innerHeight * -0.2, opacity: 0 })
+  .from("#num3", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-title3", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-text3", { x: innerWidth * -0.2, opacity: 0 });
 
-  // Step 4
-  gsap
+// Step 4
+gsap
   .timeline({
     scrollTrigger: {
       trigger: "#step4",
       start: "-25% 60%", //Starts animation
       end: "10% 30%", //Ends animation
       // markers: true,
-      scrub: 3,
+      scrub: 1.5,
     },
   })
-  .from("#demo4", { x: innerWidth * -1 })
-  .from("#num4", { x: innerWidth * -1 })
-  .from("#HIW-title4", { x: innerWidth * -1 })
-  .from("#HIW-text4", { x: innerWidth * -1 });
+  .from("#demo4", { y: innerHeight * -0.2, opacity: 0 })
+  .from("#num4", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-title4", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-text4", { x: innerWidth * -0.2, opacity: 0 });
 
-  // Step 5
-  gsap
+// Step 5
+gsap
   .timeline({
     scrollTrigger: {
       trigger: "#step5",
       start: "-25% 60%", //Starts animation
       end: "10% 30%", //Ends animation
       // markers: true,
-      scrub: 3,
+      scrub: 1.5,
     },
   })
-  .from("#demo5", { x: innerWidth * -1 })
-  .from("#num5", { x: innerWidth * -1 })
-  .from("#HIW-title5", { x: innerWidth * -1 })
-  .from("#HIW-text5", { x: innerWidth * -1 });
+  .from("#demo5", { y: innerHeight * -0.2, opacity: 0 })
+  .from("#num5", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-title5", { x: innerWidth * -0.2, opacity: 0 })
+  .from("#HIW-text5", { x: innerWidth * -0.2, opacity: 0 });
 
 // Source to check scroll animation
 // https://greensock.com/docs/v3/Plugins/ScrollTrigger
