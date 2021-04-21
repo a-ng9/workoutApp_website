@@ -70,7 +70,7 @@ gsap
       trigger: "#step2",
       start: "-25% 60%", //Starts animation
       end: "10% 30%", //Ends animation
-      markers: true,
+      // markers: true,
       scrub: 1.5,
     },
   })
