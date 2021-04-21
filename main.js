@@ -91,9 +91,9 @@ gsap
     },
   })
   .from("#demo3", { y: innerHeight * -0.2, opacity: 0 })
-  .from("#num3", { x: innerWidth * -0.2, opacity: 0 })
-  .from("#HIW-title3", { x: innerWidth * -0.2, opacity: 0 })
-  .from("#HIW-text3", { x: innerWidth * -0.2, opacity: 0 });
+  .from("#num3", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-title3", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-text3", { x: innerWidth * 0.2, opacity: 0 });
 
 // Step 4
 gsap
@@ -123,9 +123,9 @@ gsap
     },
   })
   .from("#demo5", { y: innerHeight * -0.2, opacity: 0 })
-  .from("#num5", { x: innerWidth * -0.2, opacity: 0 })
-  .from("#HIW-title5", { x: innerWidth * -0.2, opacity: 0 })
-  .from("#HIW-text5", { x: innerWidth * -0.2, opacity: 0 });
+  .from("#num5", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-title5", { x: innerWidth * 0.2, opacity: 0 })
+  .from("#HIW-text5", { x: innerWidth * 0.2, opacity: 0 });
 
 // Source to check scroll animation
 // https://greensock.com/docs/v3/Plugins/ScrollTrigger
