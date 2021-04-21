@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="241.759" height="503.448" viewBox="0 0 241.759 503.448">
+  <g id="points-screen" transform="translate(449.161 -1123.843)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="241.759" height="503.447" rx="31" transform="translate(-449.161 1123.843)"/>
+    <path id="Intersection_6" data-name="Intersection 6" d="M21.269,484.419A25.262,25.262,0,0,1,0,463.152V21.394A25.258,25.258,0,0,1,22.267,0h28V5.132a14.176,14.176,0,0,0,8.65,13.048,14.075,14.075,0,0,0,5.513,1.113H159.4a14.116,14.116,0,0,0,10.014-4.147,14.116,14.116,0,0,0,4.148-10.014V0h28A25.252,25.252,0,0,1,224,22.85V461.7a25.259,25.259,0,0,1-21.442,22.723Z" transform="translate(-440.006 1132.737)" fill="#384059"/>
+    <text id="Congratulations_" data-name="Congratulations!" transform="translate(-396.947 1248.785)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Congratulations!</tspan></text>
+    <g id="Group_44" data-name="Group 44" transform="translate(-424.599 1470.829)">
+      <text id="_14" data-name="14" transform="translate(16 15)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="15" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-8.108" y="0">14</tspan></text>
+      <text id="workouts" transform="translate(16 29.132)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="7" font-family="Montserrat-Regular, Montserrat"><tspan x="-16.306" y="0">workouts</tspan></text>
+    </g>
+    <g id="Group_45" data-name="Group 45" transform="translate(-346.484 1470.829)">
+      <text id="_1_000" data-name="1,000" transform="translate(21 15)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-21.424" y="0">1,000</tspan></text>
+      <text id="Points" transform="translate(20.113 29.132)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="7" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.106" y="0">Points</tspan></text>
+    </g>
+    <g id="Group_46" data-name="Group 46" transform="translate(-260.557 1470.829)">
+      <text id="_1" data-name="1" transform="translate(13 13)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-2.352" y="0">1</tspan></text>
+      <text id="Partner" transform="translate(13 29.132)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="7" font-family="Montserrat-Regular, Montserrat"><tspan x="-13.296" y="0">Partner</tspan></text>
+    </g>
+    <path id="Icon_material-star-border" data-name="Icon material-star-border" d="M69.321,27.008,45.478,24.952,36.16,3,26.842,24.985,3,27.008,21.106,42.693,15.667,66,36.16,53.636,56.653,66,51.248,42.693ZM36.16,47.435,23.692,54.962,27.008,40.77,16,31.219l14.524-1.26L36.16,16.6l5.67,13.4,14.524,1.26L45.346,40.8,48.662,55Z" transform="translate(-359.718 1160.132)" fill="#b7575a"/>
+    <path id="Icon_material-star" data-name="Icon material-star" d="M15.411,21.951l7.67,4.629-2.035-8.725,6.776-5.87L18.9,11.228,15.411,3l-3.487,8.228L3,11.985l6.776,5.87L7.741,26.58Z" transform="translate(-292.503 1191.635)" fill="#b7575a"/>
+    <path id="Icon_material-star-2" data-name="Icon material-star" d="M15.411,21.951l7.67,4.629-2.035-8.725,6.776-5.87L18.9,11.228,15.411,3l-3.487,8.228L3,11.985l6.776,5.87L7.741,26.58Z" transform="translate(-385.446 1191.635)" fill="#b7575a"/>
+    <line id="Line_7" data-name="Line 7" x2="144.468" transform="translate(-400.992 1267.302)" fill="none" stroke="#d65852" stroke-width="2"/>
+    <line id="Line_8" data-name="Line 8" x2="144.468" transform="translate(-390.591 1277.415)" fill="none" stroke="#d65852" stroke-width="2"/>
+    <text id="Points_Earned" data-name="Points Earned" transform="translate(-331.409 1348.336)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="9" font-family="Montserrat-Regular, Montserrat"><tspan x="-31.68" y="0">Points Earned</tspan></text>
+    <text id="_2_000" data-name="2,000" transform="translate(-325.824 1329.674)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="33" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-47.619" y="0">2,000</tspan></text>
+    <g id="Done" transform="translate(-349.088 1535.925)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="26.038" cy="26.038" rx="26.038" ry="26.038" transform="translate(0 0)" fill="#b7575a"/>
+      <path id="Icon_ionic-ios-checkmark" data-name="Icon ionic-ios-checkmark" d="M31.16,14.074l-1.7-1.751a.366.366,0,0,0-.271-.116h0a.351.351,0,0,0-.271.116l-11.8,11.891-4.3-4.3a.374.374,0,0,0-.542,0L10.55,21.64a.386.386,0,0,0,0,.552l5.418,5.418a1.714,1.714,0,0,0,1.132.552,1.8,1.8,0,0,0,1.122-.532h.01l12.936-13A.414.414,0,0,0,31.16,14.074Z" transform="translate(4.678 6.333)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

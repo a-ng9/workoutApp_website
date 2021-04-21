@@ -1,6 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="241.759" height="503.448" viewBox="0 0 241.759 503.448">
-  <g id="friends-screen" transform="translate(449.161 -1123.843)">
-    <rect id="Rectangle_2" data-name="Rectangle 2" width="241.759" height="503.447" rx="31" transform="translate(-449.161 1123.843)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="313.759" height="575.448" viewBox="0 0 313.759 575.448">
+  <defs>
+    <filter id="Rectangle_2" x="0" y="0" width="313.759" height="575.448" filterUnits="userSpaceOnUse">
+      <feOffset dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="friends-screen" transform="translate(485.161 -1112.843)">
+    <g transform="matrix(1, 0, 0, 1, -485.16, 1112.84)" filter="url(#Rectangle_2)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="241.759" height="503.447" rx="31" transform="translate(36 11)"/>
+    </g>
     <path id="Intersection_6" data-name="Intersection 6" d="M21.269,484.419A25.262,25.262,0,0,1,0,463.152V21.394A25.258,25.258,0,0,1,22.267,0h28V5.132a14.176,14.176,0,0,0,8.65,13.048,14.075,14.075,0,0,0,5.513,1.113H159.4a14.116,14.116,0,0,0,10.014-4.147,14.116,14.116,0,0,0,4.148-10.014V0h28A25.252,25.252,0,0,1,224,22.85V461.7a25.259,25.259,0,0,1-21.442,22.723Z" transform="translate(-440.006 1132.737)" fill="#384059"/>
     <path id="Rectangle_27" data-name="Rectangle 27" d="M15,0H147.017a15,15,0,0,1,15,15v4.572a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V15A15,15,0,0,1,15,0Z" transform="translate(-409.289 1263.492)" fill="#fff"/>
     <g id="Friends_list" data-name="Friends list" transform="translate(-439.735 1299.918)">
